@@ -10,5 +10,9 @@ class Users extends Model
 	public function users()
 	{
 		return $this->hasOne('App\Profiles');
+
+
+
+		
 	}
 }
