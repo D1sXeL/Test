@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>@yield('title')</title>
+  </head>
+  <body>
+    <header>
+      хедер
+      @include('elems.header')
+    </header>
+    <aside>
+      сайдбар
+      <p>@yield('aside')</p>
+    </aside>
+    <main>
+      @yield('main')
+    </main>
+    <footer>
+      футер
+      @include('elems.footer')
+    </footer>
+  </body>
+</html>
