@@ -93,3 +93,16 @@ Route::match(['get', 'post'], '/eloquent/test/8/{id}', [App\Http\Controllers\Elo
 Route::get('/eloquent/test/9/{id}', [App\Http\Controllers\EloquentController::class, 'delPostId']);
 Route::get('/eloquent/test/10/', [App\Http\Controllers\EloquentController::class, 'midlDel']);
 Route::get('/eloquent/test/11/', [App\Http\Controllers\EloquentController::class, 'getDeletedPost']);
+
+Route::get('/practice/', [App\Http\Controllers\PracticeController::class, 'exampleOne']);
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

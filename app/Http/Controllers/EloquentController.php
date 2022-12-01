@@ -135,6 +135,6 @@ class EloquentController extends Controller
 
     public function getDataUserProfiles()
     {
-        $data = 
+        null;
     }
 }
